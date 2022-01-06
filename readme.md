@@ -1,3 +1,6 @@
+# One Cycle Policy
+One cycle policy was introduced by [Leslie Smith](https://arxiv.org/abs/1803.09820) and a great summary of the concept can be found [here](https://sgugger.github.io/the-1cycle-policy.html).
+
 # Compare OneCycle to regular Detectron Training
 Training is done on the Sartorius Cell Segmentation Dataset ([source](https://www.kaggle.com/c/sartorius-cell-instance-segmentation/data)). The XRes runs are over 20 epochs (~2400 iterations) where as the ResNet runs are over 25 epochs (~3000 iterations). All runs use a batch size of 2 and lite augmentation (rotation | flip | contrast | brightness | saturation) at an image size of 520 x 704 (original image size).
 
